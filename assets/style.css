@@ -7,9 +7,11 @@
 
 }
     
-.navbar-nav .nav-link{
-
-    color: #bb2f52;
+ .my-navLink{
+    font-size: 20px;
+margin: 8px;
+    color: #30343f;
+    text-decoration: none;
 }
 
 
