@@ -79,11 +79,19 @@ margin: 8px;
   
   }
 
+  .aboutMe{
+    margin-top: -10px;
+  }
+
+  #cvButton{
+    padding-bottom: 10px;
+  }
   
   #aboutMeTitle{
+    
     display: flex;
     justify-content: flex-start;
-    padding-top: 30px;
+    padding-top: 0px;
     padding-right: 10%;
     text-align: justify;
     margin-right: 1px;
@@ -116,6 +124,7 @@ margin: 8px;
     padding-right: 10%;
     text-align: justify;
     margin-right: 1px;
+    padding-bottom: 30px;
 
   }
 
@@ -181,4 +190,44 @@ margin: 8px;
 }
 
 
+#skillsSection{
+  padding-top: 30px;
+  padding-bottom: auto;
+  margin-bottom: 30px;
+}
+
+#skillsText{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-muted{
+    
+  font-size: 25px;
+}
+
+#logo{
+  height: 50px;
+  gap: 10px;
+  filter: brightness(50%);
+  
+  
+
+}
+#logo:hover{
+  
+  filter:contrast(50%);
+}
+
+.logos{
+  display: flex;
+gap:10px;
+}
+
+.footer{
+  background-color: rgb(179, 240, 219);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
